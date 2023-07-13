@@ -47,12 +47,15 @@
 }
 .featured-img{
     display: flex;
+    justify-content: space-evenly;
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 .img1{
     background-color: rgba(167, 33, 98, 0.15);
     border-radius:200px 200px 0 0;
     padding-top: 20px;
+    
 }
 .img2{
     background-color: rgba(5, 151, 160, 0.15);
@@ -60,9 +63,33 @@
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+   
 }
 .img3{
     background-color: rgba(167, 33, 98, 0.15);
     border-radius:200px 200px 0 0;
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.featured-para{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.hot-deal{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-div{
+    padding-top: 200px;
+}
+.hotdeal-text{
+    padding-top: 200px;
+    font-size: 35px;
+    font-weight: 600;
 }
